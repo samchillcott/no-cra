@@ -10,7 +10,9 @@
   "description": "Simple setup of a React app without using create-react-app.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "webpack-dev-server --mode=development --open --hot",
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
